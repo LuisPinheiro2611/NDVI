@@ -14,9 +14,6 @@ Este projeto utiliza o *Google Earth Engine (GEE)* em conjunto com *Python* no G
 - Adição de legenda de cores e zoom automático na AOI
 - Exportação da imagem NDVI em formato *GeoTIFF*
 
-## Exemplo de Resultado
-
->
 
 ## Requisitos
 
