@@ -28,3 +28,8 @@ Instale com:
 
 ```bash
 pip install earthengine-api geopandas geemap matplotlib
+
+
+## Acesso rápido ao notebook
+n
+[*Clique aqui para abrir o notebook no Google Colab*](https://colab.research.google.com/drive/1N1vfN_kNapkMfEp0rYtD0pOUipWrogWC?usp=sharing)
