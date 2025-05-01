@@ -1,1 +1,33 @@
-# NDVI
+# Geração de NDVI com Google Earth Engine e Python
+
+Este projeto utiliza o *Google Earth Engine (GEE)* em conjunto com *Python* no Google Colab para gerar o índice de vegetação NDVI (Normalized Difference Vegetation Index) de uma área específica, definida por meio de um arquivo shapefile.
+
+## Funcionalidades
+
+- Autenticação e inicialização da API do GEE
+- Leitura e reprojeção da área de estudo a partir de shapefile com geopandas
+- Conversão da geometria para o formato aceito pelo GEE
+- Coleta de imagens do satélite *Sentinel-2* (pode ser adaptado para outros sensores)
+- Cálculo do NDVI a partir das bandas B8 (NIR) e B4 (RED)
+- Recorte da imagem NDVI com base na área de interesse
+- Visualização interativa usando geemap e Google Maps
+- Adição de legenda de cores e zoom automático na AOI
+- Exportação da imagem NDVI em formato *GeoTIFF*
+
+## Exemplo de Resultado
+
+>
+
+## Requisitos
+
+- Conta ativada no [Google Earth Engine](https://signup.earthengine.google.com/)
+- Ambiente Google Colab ou local com:
+  - earthengine-api
+  - geopandas
+  - geemap
+  - matplotlib (para visualizações adicionais)
+
+Instale com:
+
+```bash
+pip install earthengine-api geopandas geemap matplotlib
